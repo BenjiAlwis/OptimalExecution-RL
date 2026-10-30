@@ -1,0 +1,30 @@
+# Training output
+runs/
+runs_*/
+figures/
+*.pt
+*.npz
+metrics.csv
+*.progress
+
+# Generated analysis artefacts
+calibration_all.csv
+validity_panel.csv
+calibrated_rl_results.csv
+week7_theta.csv
+week7_urgency.csv
+
+# LOBSTER data (licensed; download separately)
+*_message_*.csv
+*_orderbook_*.csv
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
