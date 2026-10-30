@@ -1,7 +1,7 @@
 # Training output
 runs/
 runs_*/
-figures/
+/figures/
 *.pt
 *.npz
 metrics.csv
